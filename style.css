@@ -1,9 +1,11 @@
-html{
+body{
   font-family: "Lucida Sans Typewriter", "Lucida Console", monaco;
   background-color: white;
   color: black;
   padding: 30px;
   margin: 50px;
+  border: 5px;
+  border-style: solid;
 }
 h1{
   text-align: center;
