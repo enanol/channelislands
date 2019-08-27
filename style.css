@@ -6,13 +6,13 @@ body{
   margin: 50px;
   border: 5px solid black;
 h1{
-  text-align: center;
+  text-align: left;
   text-decoration: underline;
   padding-top: 15px;
   padding-bottom: 35px;
 }
 a{
-  color: #ffff4d;
+  color: #B8860B;
 }
 p{
    color: #d6d6c2;
