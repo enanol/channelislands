@@ -1,21 +1,30 @@
-body{
-  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco;
+html{
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
   background-color: white;
   color: black;
   padding: 30px;
-  margin: 50px;
-  border: 5px solid black;
+  border-width: 75px;
+  border-style: solid;
+}
 h1{
   text-align: left;
   text-decoration: underline;
   padding-top: 15px;
   padding-bottom: 35px;
 }
-a{
-  color: #B8860B;
+#intro{
+  text-align: center;
+  color: green;
+  padding-bottom: 35px;
 }
-p{
-   color: #d6d6c2;
+.list{
+  background-color: #E6E6FA;
+}
+a {
+  color: #20B2AA;
+}
+hr {
+  border-top: 2px dashed black;
 }
 .zone{
   display: block;
@@ -25,4 +34,7 @@ p{
 }
 #links{
   padding-left: 0;
+}
+#fox{
+  color: #D2691E;
 }
