@@ -18,6 +18,13 @@ h1{
   color: 	#808000;
   padding-bottom: 35px;
 }
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    color: black;
+}
 .list{
   background-color: #E6E6FA;
 }
