@@ -1,4 +1,4 @@
-html{
+body{
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter";
   background-color: white;
   color: black;
@@ -6,21 +6,22 @@ html{
   border-width: 75px;
   border-style: solid;
 }
-h1{
-  text-align: left;
-  text-decoration: underline;
-  padding-top: 15px;
+header{
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+#intro{
+  text-align: center;
+  font-size: 15px;
+  color: white;
   padding-bottom: 35px;
-  border-bottom: 5px solid black;
 }
 h2, h3{
   padding-top: 15px;
   border-top: 2px dashed black;
-}
-#intro{
-  text-align: center;
-  color: 	#808000;
-  padding-bottom: 35px;
 }
 aside {
     width: 40%;
@@ -46,4 +47,11 @@ a {
 }
 #fox{
   color: #D2691E;
+}
+footer {
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  background-color: white;
+  text-align: center;
 }
